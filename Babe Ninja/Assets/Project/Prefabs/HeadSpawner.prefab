@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1128475481945202}
+  m_IsPrefabParent: 1
+--- !u!1 &1128475481945202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4495163536839834}
+  - component: {fileID: 114754529793233120}
+  - component: {fileID: 114038493727898344}
+  - component: {fileID: 114976079090696600}
+  m_Layer: 0
+  m_Name: HeadSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4495163536839834
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1128475481945202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.4391913, y: -6.593444, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114038493727898344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1128475481945202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00728474420be4a1a96bdb1a6156aa82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 1606974134718976, guid: eefb6d6f5a0244e06aae92e158be5646, type: 2}
+  ransom: {fileID: 1624591428363828, guid: 20a2da34f05024f8280cb32d64cd8cbb, type: 2}
+  maxX: 7
+--- !u!114 &114754529793233120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1128475481945202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00728474420be4a1a96bdb1a6156aa82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 1512661279111412, guid: 6cd412aa8c1cb4cd29d7320ba64d3414, type: 2}
+  ransom: {fileID: 1624591428363828, guid: 20a2da34f05024f8280cb32d64cd8cbb, type: 2}
+  maxX: 7
+--- !u!114 &114976079090696600
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1128475481945202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00728474420be4a1a96bdb1a6156aa82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 1111025772725938, guid: 55f66e3debe36481786801f5c444f99c, type: 2}
+  ransom: {fileID: 1624591428363828, guid: 20a2da34f05024f8280cb32d64cd8cbb, type: 2}
+  maxX: 7
